@@ -44,7 +44,7 @@
   ```sql
   SELECT NOW(); -- 2026-03-25 09:20:53
   ```
-- `DATE_FORMAT`, `TIME_FORMAT` Formatują datę i czas (niezależnie od funkcji)
+- `DATE_FORMAT`, `TIME_FORMAT` Formatują datę i czas (niezależnie od funkcji).
   ```sql
   SELECT DATE_FORMAT(o.timestamp_when, '%M %d, %y at %h:%i:%s %p'), -- March 25, 26 at 09:13:45 AM
     TIME_FORMAT(o.timestamp_when, '%M %d, %y at %h:%i:%s %p') -- March 25, 26 at 09:13:45 AM
